@@ -18,7 +18,8 @@ var esc = new ElasticSearch.Client({
       port: conf.ES_PORT,
       auth: (conf.ES_USER && conf.ES_PASS) ? conf.ES_USER + ':' + conf.ES_PASS : null
     }  
-  ]
+  ],
+  requestTimeout: 600000,
 });
 
 console.log('Connected to ElasticSearch host %s:%s'.grey, conf.ES_HOST, conf.ES_PORT);
