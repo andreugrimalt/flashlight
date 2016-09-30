@@ -61,20 +61,7 @@ else {
  * location you specified in the FB_PATHS variable. Be sure to restrict that data in your Security Rules.
  ****************************************************/
 
-exports.paths = [
-   {
-      path:  "users",
-      index: "firebase",
-      type:  "user"
-   },
-   {
-      path:  "messages",
-      index: "firebase",
-      type:  "message",
-      fields: ['msg', 'name'],
-      filter: function(data) { return data.name !== 'system'; }
-   }
-];
+exports.paths = JSON.parse(process.env.PATHS);
 
 // Paths can also be stored in Firebase and loaded using FB_PATHS!
 exports.FB_PATH = process.env.FB_PATHS || null;
