@@ -8,15 +8,18 @@
     "email": "katowulf@gmail.com"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">=6.2.0"
   },
   "main": "app.js",
   "devDependencies": {},
   "dependencies": {
     "JQDeferred": "~1.9.1",
     "colors": "~0.6.2",
+    "deep-assign": "^2.0.0",
     "elastic.js": "^1.2.0",
     "elasticsearch": "^11.0.1",
-    "firebase": "^3.3.2"
+    "firebase": "^3.3.2",
+    "flat": "^2.0.1",
+    "traverse": "^0.6.6"
   }
 }
