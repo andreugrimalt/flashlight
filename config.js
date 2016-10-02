@@ -61,8 +61,7 @@ else {
  * location you specified in the FB_PATHS variable. Be sure to restrict that data in your Security Rules.
  ****************************************************/
 
-exports.paths = JSON.parse(process.env.PATHS);
-
+exports.paths = process.env.PATHS === undefined ? [] : JSON.parse(process.env.PATHS);
 // Paths can also be stored in Firebase and loaded using FB_PATHS!
 exports.FB_PATH = process.env.FB_PATHS || null;
 
