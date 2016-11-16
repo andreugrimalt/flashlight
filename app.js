@@ -22,8 +22,13 @@ var esc = new ElasticSearch.Client({
   requestTimeout: conf.ES_REQUEST_TIMEOUT,
 });
 
-console.log('Connected to ElasticSearch host %s:%s'.grey, conf.ES_HOST, conf.ES_PORT);
-
-fbutil.init(conf.FB_URL, conf.FB_SERVICEACCOUNT);
-PathMonitor.process(esc, conf.paths, conf.FB_PATH);
-SearchQueue.init(esc, conf.FB_REQ, conf.FB_RES, conf.CLEANUP_INTERVAL);
+esc.ping({}, function (error) {
+  if (error) {
+    console.error('elasticsearch cluster is down');
+  } else {
+    fbutil.init(conf.FB_URL, conf.FB_SERVICEACCOUNT);
+    PathMonitor.process(esc, conf.paths, conf.FB_PATH);
+    SearchQueue.init(esc, conf.FB_REQ, conf.FB_RES, conf.CLEANUP_INTERVAL);
+    console.log('Connected to ElasticSearch host %s:%s'.grey, conf.ES_HOST, conf.ES_PORT);
+  }
+});
