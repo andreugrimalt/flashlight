@@ -1,0 +1,1038 @@
+{
+    "orders": {
+        "aliases": {},
+        "mappings": {
+            "order": {
+                "properties": {
+                    "created": {
+                        "type": "long"
+                    },
+                    "delivery": {
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "package": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            },
+                            "weight": {
+                                "type": "long"
+                            }
+                        }
+                    },
+                    "items": {
+                        "properties": {
+                            "10000011000001109": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "10000311000001107": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "reminder": {
+                                        "properties": {
+                                            "description": {
+                                                "type": "string"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "prescription": {
+                                                "type": "string"
+                                            },
+                                            "shedule": {
+                                                "properties": {
+                                                    "cycle": {
+                                                        "type": "long"
+                                                    },
+                                                    "doses": {
+                                                        "properties": {
+                                                            "hours": {
+                                                                "type": "long"
+                                                            },
+                                                            "minutes": {
+                                                                "type": "long"
+                                                            },
+                                                            "quantity": {
+                                                                "type": "long"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "supply": {
+                                                "properties": {
+                                                    "end": {
+                                                        "type": "long"
+                                                    },
+                                                    "packs": {
+                                                        "type": "long"
+                                                    },
+                                                    "quantity": {
+                                                        "type": "long"
+                                                    },
+                                                    "start": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "10000411000001100": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "reminder": {
+                                        "properties": {
+                                            "description": {
+                                                "type": "string"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "prescription": {
+                                                "type": "string"
+                                            },
+                                            "shedule": {
+                                                "properties": {
+                                                    "cycle": {
+                                                        "type": "long"
+                                                    },
+                                                    "doses": {
+                                                        "properties": {
+                                                            "hours": {
+                                                                "type": "long"
+                                                            },
+                                                            "minutes": {
+                                                                "type": "long"
+                                                            },
+                                                            "quantity": {
+                                                                "type": "long"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "supply": {
+                                                "properties": {
+                                                    "end": {
+                                                        "type": "long"
+                                                    },
+                                                    "packs": {
+                                                        "type": "long"
+                                                    },
+                                                    "quantity": {
+                                                        "type": "long"
+                                                    },
+                                                    "start": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "10000711000001106": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "10001511000001108": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "reminder": {
+                                        "properties": {
+                                            "description": {
+                                                "type": "string"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "prescription": {
+                                                "type": "string"
+                                            },
+                                            "shedule": {
+                                                "properties": {
+                                                    "cycle": {
+                                                        "type": "long"
+                                                    },
+                                                    "doses": {
+                                                        "properties": {
+                                                            "hours": {
+                                                                "type": "long"
+                                                            },
+                                                            "minutes": {
+                                                                "type": "long"
+                                                            },
+                                                            "quantity": {
+                                                                "type": "long"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "supply": {
+                                                "properties": {
+                                                    "end": {
+                                                        "type": "long"
+                                                    },
+                                                    "packs": {
+                                                        "type": "long"
+                                                    },
+                                                    "quantity": {
+                                                        "type": "long"
+                                                    },
+                                                    "start": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "10002011000001108": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "reminder": {
+                                        "properties": {
+                                            "description": {
+                                                "type": "string"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "prescription": {
+                                                "type": "string"
+                                            },
+                                            "shedule": {
+                                                "properties": {
+                                                    "cycle": {
+                                                        "type": "long"
+                                                    },
+                                                    "doses": {
+                                                        "properties": {
+                                                            "hours": {
+                                                                "type": "long"
+                                                            },
+                                                            "minutes": {
+                                                                "type": "long"
+                                                            },
+                                                            "quantity": {
+                                                                "type": "long"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "supply": {
+                                                "properties": {
+                                                    "end": {
+                                                        "type": "long"
+                                                    },
+                                                    "packs": {
+                                                        "type": "long"
+                                                    },
+                                                    "quantity": {
+                                                        "type": "long"
+                                                    },
+                                                    "start": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "18206511000001109": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "2152411000001109": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "gtins": {
+                                        "properties": {
+                                            "5013457010831": {
+                                                "type": "boolean"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "21915211000001106": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "23807911000001106": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "25721811000001105": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "gtins": {
+                                        "properties": {
+                                            "5060242150937": {
+                                                "type": "boolean"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "9384411000001105": {
+                                "properties": {
+                                    "description": {
+                                        "type": "string"
+                                    },
+                                    "detail": {
+                                        "properties": {
+                                            "category": {
+                                                "type": "string"
+                                            },
+                                            "charge": {
+                                                "type": "long"
+                                            },
+                                            "discrete": {
+                                                "type": "boolean"
+                                            },
+                                            "form": {
+                                                "type": "string"
+                                            },
+                                            "icon": {
+                                                "type": "string"
+                                            },
+                                            "pack": {
+                                                "properties": {
+                                                    "size": {
+                                                        "type": "long"
+                                                    },
+                                                    "unit": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keywords": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "description": {
+                                "type": "string"
+                            },
+                            "detail": {
+                                "properties": {
+                                    "category": {
+                                        "type": "string"
+                                    },
+                                    "charge": {
+                                        "type": "long"
+                                    },
+                                    "discrete": {
+                                        "type": "boolean"
+                                    },
+                                    "form": {
+                                        "type": "string"
+                                    },
+                                    "icon": {
+                                        "type": "string"
+                                    },
+                                    "pack": {
+                                        "properties": {
+                                            "size": {
+                                                "type": "long"
+                                            },
+                                            "unit": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "type": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "gtins": {
+                                "properties": {
+                                    "5013457010831": {
+                                        "type": "boolean"
+                                    },
+                                    "5018431690016": {
+                                        "type": "boolean"
+                                    },
+                                    "5060242150937": {
+                                        "type": "boolean"
+                                    },
+                                    "5060357610296": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            },
+                            "id": {
+                                "type": "string"
+                            },
+                            "keywords": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            },
+                            "status": {
+                                "properties": {
+                                    "modified": {
+                                        "type": "long"
+                                    },
+                                    "status": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "parentOrder": {
+                        "type": "string"
+                    },
+                    "patient": {
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "pharmacy": {
+                                "type": "string"
+                            },
+                            "practice": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "payment": {
+                        "properties": {
+                            "charge": {
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "total": {
+                                "type": "long"
+                            }
+                        }
+                    },
+                    "pinned": {
+                        "type": "boolean"
+                    },
+                    "status": {
+                        "properties": {
+                            "modified": {
+                                "type": "long"
+                            },
+                            "status": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "settings": {
+            "index": {
+                "creation_date": "1475598089518",
+                "number_of_shards": "5",
+                "number_of_replicas": "1",
+                "uuid": "TozcajnhSqer6rspRNUcPA",
+                "version": {
+                    "created": "2030499"
+                }
+            }
+        },
+        "warmers": {}
+    }
+}

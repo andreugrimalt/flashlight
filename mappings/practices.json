@@ -1,0 +1,1 @@
+{"mappings": {"practice": {"properties": {"address": {"properties": {"city": {"type": "string"},"coordinates": {"type": "geo_point"},"country": {"type": "string"},"line1": {"type": "string"},"line2": {"type": "string"},"postcode": {"type": "string"}}},"branchOf": {"type": "string"},"name": {"type":"string","fields": {"raw": {"type": "string","index": "not_analyzed"}}}}}}}

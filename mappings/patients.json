@@ -1,0 +1,611 @@
+{
+    "patients": {
+        "aliases": {},
+        "mappings": {
+            "patient": {
+                "properties": {
+                    "created": {
+                        "type": "long"
+                    },
+                    "pharmacy": {
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "nomination": {
+                                "properties": {
+                                    "created": {
+                                        "type": "long"
+                                    },
+                                    "signature": {
+                                        "type": "string"
+                                    },
+                                    "status": {
+                                        "properties": {
+                                            "modified": {
+                                                "type": "long"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "practice": {
+                        "type": "string"
+                    },
+                    "profile": {
+                        "properties": {
+                            "addresses": {
+                                "properties": {
+                                    "default": {
+                                        "type": "string"
+                                    },
+                                    "list": {
+                                        "properties": {
+                                            "-KSpitsm9--aI9tq8nlr": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KSpjx1jIGNMxaaqqC8x": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KSqF60jpdrXymsBCu3j": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTPvpJUdSO0gA0qGGjV": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTQpMaR7NFiEHE5lzsC": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTSzGCqN4u897Yd0hlQ": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTTu7HQaU05cZ-tt0gJ": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTn6m6yrXC3NyqoKAeW": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTn6sIVy4UA_SJtLk8U": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTnAQAsiEQFK-8F2hiz": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTnJ6LCHEDkcb5USAPT": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KTrnhNU-WVUjsQOMRKF": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KU2nmEamI7ZacrVSVEC": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KUITZrgZycjaG1MivMv": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "-KUMaGulzxBmg5L5vORl": {
+                                                "properties": {
+                                                    "city": {
+                                                        "type": "string"
+                                                    },
+                                                    "country": {
+                                                        "type": "string"
+                                                    },
+                                                    "line1": {
+                                                        "type": "string"
+                                                    },
+                                                    "line2": {
+                                                        "type": "string"
+                                                    },
+                                                    "postcode": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "city": {
+                                                "type": "string"
+                                            },
+                                            "country": {
+                                                "type": "string"
+                                            },
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "line1": {
+                                                "type": "string"
+                                            },
+                                            "line2": {
+                                                "type": "string"
+                                            },
+                                            "postcode": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "main": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "birthday": {
+                                "type": "long"
+                            },
+                            "email": {
+                                "type": "string"
+                            },
+                            "firstName": {
+                                "type": "string"
+                            },
+                            "gender": {
+                                "type": "string"
+                            },
+                            "lastName": {
+                                "type": "string"
+                            },
+                            "nhsNumber": {
+                                "type": "string"
+                            },
+                            "phone": {
+                                "type": "string"
+                            },
+                            "title": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "settings": {
+                        "properties": {
+                            "notifications": {
+                                "properties": {
+                                    "email": {
+                                        "type": "boolean"
+                                    },
+                                    "mobile": {
+                                        "type": "boolean"
+                                    },
+                                    "tokens": {
+                                        "properties": {
+                                            "apple": {
+                                                "properties": {
+                                                    "cMNFF3yrzus:APA91bFWEjR2qfJf-9wDyNqWwvvcZanNldfaaYYgPcF6Y0w4dRttTnNXjzvQ3OVX8nMSQAoTGA0aCqKzklCRUpBTEQSqbxwAS8gMlOpOASDq50dK5t357r9omjEp1QoY5ZJqpzHaFKNM": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "d568gSSzF5A:APA91bEHteoB4gNesU5Lzc2t0UysN1TGkRfz_XuGRlfmfMK37c6idcnl7J8gce1D0nE7H2mDaZTED0ZS8I4O5e0PBMswWF-t5VAS7T-ADJbj-aZeYCipBcCOui1KGKESrYRFJ-MsntFN": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "djnQf9p9Ku0:APA91bHvWBPkO7Zw6KeI9fodCS_rc0t_ykAKpk_blScetEktbhmV8Fld9HxV-k5-1Ni2o_F0COHaScsKcdQh_tuuat9oEBQoDjkHEXXMv6LAJb68qRaWpv6aATMngXT9IJcHZZha_p8A": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "dsT0uBk_YOg:APA91bFQmyifLJPZJa-ctyDqZByV-wKw4ofm0MRVaJXlE_IjvEirrxtMRgD8JE8DpyEros1ZEjQIK_Eq4iFQf_Hfyn_myPVGUOtokpnyjB-ne2b4kb9rwqfAaGw_hM3bg5FMiv7ETWxN": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "eQh6OQIZILw:APA91bENaEiH-DltfL0LYcVlRTIdHfW8BTmJe0hr73qPoEKjJb5J0Jjg7JvlvsU4Wp06CxvJqUwztNvgF7euHAfgndZqO-3soD6ficIevpeNFtc1QA6BXIgwbWMMRVPWEwF2uyMue_tb": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "edRNldU7kkQ:APA91bEAD1EC65JhBLrOH3-IpNuP8ou6fBMzp549w8UxQXF9Slo7Ss-zjd1mc2wrfH9aL3hKKAKuXWmFhXp7oYWcMa4KB3KlTDbWu2PKnMZUbgfWHyTZd5oquFvpFncDl2dDQcD7IJ2G": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "f6aUhI4BXyI:APA91bEOrFSak97gVqL6H46q2JzO3MNYxijJusUdCEgSosfgDj7xgIO1Y7Ii02ArFLh6fVdSeVw3mqb8XWC2hEhkl8dJlucVb-PEyul2EX7OAOvSMi6nOac51A3nGi-945emRD_5qG0Q": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "fATmLao5GUA:APA91bECDFzA-hY_xkvDPByNb592Y-oZey8cvdpiLyFf3d8-uYlVTYHBuZIcP97t4zaTD9tv3NWcPV5gz8gbrn6fhZ8XK87XAQaxnaBuQTQEBjlMlM0gOutWz3RLdK2SEkBlSfX_FJ28": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "fAnS813W4Pc:APA91bEbaCfpWeyb7Av-qBoheN7cZqeaLq53NsEuk5ciHcGLGoWuLjZ0ynWfp5vXSWeRA1At0D-e3hHpMJxxtbl_H7tMKLmHKqvOCwMRgxD0037fjCt_F53bYCSKbTitelmpvhnG8Dsd": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "fGGN2ipfwlc:APA91bGtL-9dC6xEuLA0qJCgYTxkGz1zzMRH-gMrdIGfm49TAbGl7uy3KbBXasulz-wdHX2UHfvdIWaRxjbuyWM60N3jVv_2-ij9eQs1IyB58Tf7pyUlk_8qg3zO-d3w4wtt_eogkNnI": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "fM17vwbjBEI:APA91bGneE_djK0O1451xiGZQuK8CHCgFocvMWdGWMiulEsnf3nLTbuDFMyHH_flpodLWEVuNFeAIBpJGq2eqJhRqGbWKlVjE7xOt2ZGsCS24Ie6SfMIPf3XiKfWSRArNpgFvdcmvb0X": {
+                                                        "type": "boolean"
+                                                    },
+                                                    "id": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "status": {
+                        "properties": {
+                            "modified": {
+                                "type": "long"
+                            },
+                            "status": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "stripe": {
+                        "properties": {
+                            "cards": {
+                                "properties": {
+                                    "default": {
+                                        "type": "string"
+                                    },
+                                    "list": {
+                                        "properties": {
+                                            "brand": {
+                                                "type": "string"
+                                            },
+                                            "card_18z2vCI9hG83hIrGnhjYPsrB": {
+                                                "properties": {
+                                                    "brand": {
+                                                        "type": "string"
+                                                    },
+                                                    "exp_month": {
+                                                        "type": "long"
+                                                    },
+                                                    "exp_year": {
+                                                        "type": "long"
+                                                    },
+                                                    "last4": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "card_18zOLLI9hG83hIrGBVPTkZC7": {
+                                                "properties": {
+                                                    "brand": {
+                                                        "type": "string"
+                                                    },
+                                                    "exp_month": {
+                                                        "type": "long"
+                                                    },
+                                                    "exp_year": {
+                                                        "type": "long"
+                                                    },
+                                                    "last4": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "card_191ectI9hG83hIrGibn7FGKF": {
+                                                "properties": {
+                                                    "brand": {
+                                                        "type": "string"
+                                                    },
+                                                    "exp_month": {
+                                                        "type": "long"
+                                                    },
+                                                    "exp_year": {
+                                                        "type": "long"
+                                                    },
+                                                    "last4": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "card_191j9OI9hG83hIrGQitjA3mE": {
+                                                "properties": {
+                                                    "brand": {
+                                                        "type": "string"
+                                                    },
+                                                    "exp_month": {
+                                                        "type": "long"
+                                                    },
+                                                    "exp_year": {
+                                                        "type": "long"
+                                                    },
+                                                    "last4": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "card_191sYVI9hG83hIrGmbk7KSjw": {
+                                                "properties": {
+                                                    "brand": {
+                                                        "type": "string"
+                                                    },
+                                                    "exp_month": {
+                                                        "type": "long"
+                                                    },
+                                                    "exp_year": {
+                                                        "type": "long"
+                                                    },
+                                                    "last4": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "card_191yPkI9hG83hIrGPj1BCaNH": {
+                                                "properties": {
+                                                    "brand": {
+                                                        "type": "string"
+                                                    },
+                                                    "exp_month": {
+                                                        "type": "long"
+                                                    },
+                                                    "exp_year": {
+                                                        "type": "long"
+                                                    },
+                                                    "last4": {
+                                                        "type": "string"
+                                                    },
+                                                    "name": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "exp_month": {
+                                                "type": "long"
+                                            },
+                                            "exp_year": {
+                                                "type": "long"
+                                            },
+                                            "id": {
+                                                "type": "string"
+                                            },
+                                            "last4": {
+                                                "type": "string"
+                                            },
+                                            "name": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "id": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "v1": {
+                        "properties": {
+                            "migrated": {
+                                "type": "boolean"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "settings": {
+            "index": {
+                "creation_date": "1475598119134",
+                "number_of_shards": "5",
+                "number_of_replicas": "1",
+                "uuid": "-Y_nYFD2R5CnKd2q8G3XpQ",
+                "version": {
+                    "created": "2030499"
+                }
+            }
+        },
+        "warmers": {}
+    }
+}
